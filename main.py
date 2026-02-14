@@ -11,12 +11,9 @@ from telegram.ext import (
     filters
 )
 from openai import AsyncOpenAI
-from dotenv import load_dotenv
 
 # =========================
-# LOAD ENV
 # =========================
-load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
